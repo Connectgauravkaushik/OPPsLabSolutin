@@ -1,12 +1,9 @@
 package com.Gaurav.kaushik.service;
 import com.Gaurav.kaushik.Employee;
-import com.Gaurav.kaushikmain.*;
-
 import java.util.Random;
-import java.util.random.*;
 public class Service{
 
-
+//method
 public char[] genratedPasssword() {
 	String capitalLetters ="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	String smallLetters= "abcdefghijklmnopqrstuvwxyz";
@@ -23,13 +20,13 @@ public char[] genratedPasssword() {
 	}
 	return password;
 			
-	
-}
+	//constructor
+}     
 	public String generatedEmail (String firstName,String lastName, String Department) {
 		return firstName+lastName +"@"+Department +".abc.com";	
 	}
 	
-	
+	//method
 	public void showCredentials(Employee emp, String email, char[] password ) {
 		System.out.println("Dear " +emp.getFirstName()+ " your generated credentials are as follows:");
 	    System.out.println("Email-->" +email);

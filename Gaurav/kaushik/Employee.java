@@ -25,8 +25,7 @@ public void Technical() {
 }
 
 public void Admin() {
-	
-	
+		
 }
 
 public void HumanResource() {

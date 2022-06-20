@@ -1,10 +1,7 @@
 package com.Gaurav.kaushikmain;
-
 import java.util.Scanner;
-
 import com.Gaurav.kaushik.Employee;
 import com.Gaurav.kaushik.service.Service;
-import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
